@@ -80,11 +80,9 @@
         </plugins>
     </build>
 
-    <distributionManagement>
-        <repository>
-            <id>bintray-miguelalba-libs</id>
-            <name>miguelalba-libs</name>
-            <url>https://api.bintray.com/maven/miguelalba/libs/JRis/;publish=1</url>
-        </repository>
-    </distributionManagement>
+    <repository>
+        <id>bintray-silebat-bfr-formats</id>
+        <name>silebat-bfr-formats</name>
+        <url>https://api.bintray.com/maven/silebat/bfr-formats/JRis/;publish=1</url>
+    </repository>
 </project>
